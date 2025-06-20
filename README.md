@@ -13,13 +13,13 @@
 
 <h2>📱 Overview</h2>
 <p>
-  <strong>UHOD</strong> (Unattended Human Occupant Detection System) is a smart Android application that integrates with an IoT device to detect and alert users of human presence inside parked vehicles. Designed to prevent heatstroke and suffocation—especially among children—UHOD leverages motion detection and AI (YOLOv11), Firebase Realtime Database, and Firebase Cloud Messaging (FCM) to deliver instant mobile notifications and image alerts.
+  <strong>UHOD</strong> (Unattended Human Occupant Detection System) is a smart Android application that integrates with an IoT device to detect and alert users of human presence inside parked vehicles. Designed to prevent suffocation—especially among children—UHOD leverages motion detection and AI (YOLOv11), Firebase Realtime Database, and Firebase Cloud Messaging (FCM) to deliver instant mobile notifications and image alerts.
 </p>
 
 <h2>🎯 Key Features</h2>
 <ul>
-  <li><strong>Real-Time Monitoring:</strong> Detects human presence inside a stationary vehicle using PIR sensors and computer vision.</li>
-  <li><strong>Firebase Cloud Messaging (FCM):</strong> Sends instant push notifications when motion is detected.</li>
+  <li><strong>Real-Time Monitoring:</strong> Detects human presence inside a stationary vehicle using computer vision.</li>
+  <li><strong>Firebase Cloud Messaging (FCM):</strong> Sends instant push notifications when human presence and motion is detected.</li>
   <li><strong>Snapshot Delivery:</strong> Captures and sends image evidence from the IoT device using base64-encoded data via Firebase.</li>
   <li><strong>Remote Alarm Activation:</strong> Trigger or silence the car’s alarm system from the mobile app.</li>
   <li><strong>Sleep Mode:</strong> Temporarily disable monitoring (5 mins to 1 hour) when needed.</li>
