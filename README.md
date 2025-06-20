@@ -53,7 +53,7 @@
 <h2>📦 Project Structure</h2>
 <pre>
 ├── app/
-│   ├── java/com.qppd.ibuyit/
+│   ├── java/com.qppd.carmonitoring/
 │   │   ├── MainActivity.java
 │   │   ├── AlertActivity.java
 │   │   ├── NotificationService.java
