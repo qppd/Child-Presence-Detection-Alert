@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:elevation="6dp">
+
+        <!-- Warning Icon -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/app_logo_warning" />
+
+        <!-- Warning Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Warning !!!"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@android:color/black" />
+
+        <!-- Message Container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="@drawable/rectangle_round_white_border_red_2">
+
+            <!-- Date & Time -->
+            <TextView
+                android:id="@+id/txtAlertDatetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Detection Message -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Unattended Human\nOccupant has been\ndetected"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Final Prompt -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Please check your\ncar immediately."
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- OK Button -->
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="OK"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button_red"/>
+    </LinearLayout>
+</LinearLayout>

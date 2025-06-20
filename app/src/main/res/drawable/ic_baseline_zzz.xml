@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Circle background -->
+    <path
+        android:fillColor="@color/colorMain"
+        android:pathData="M12,2a10,10 0 1,1 0,20a10,10 0 1,1 0,-20z" />
+
+    <!-- Centered "zZz" letters -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M7,9h3L7.5,13H11v1H7l2.5,-4H7V9z
+                          M11,11h4L11.5,15H16v1h-4l3.5,-4H11v-1z
+                          M15,13h3l-2.5,4H19v1h-3l2.5,-4H15v-1z" />
+</vector>

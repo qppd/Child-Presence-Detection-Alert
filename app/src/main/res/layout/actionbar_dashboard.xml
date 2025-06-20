@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/rectangle_main"
+    app:titleTextColor="@color/colorMainDark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingVertical="2dp"
+        android:src="@drawable/logo"/>
+
+</androidx.appcompat.widget.Toolbar>

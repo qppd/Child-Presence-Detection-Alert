@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "722092888737",
+    "firebase_url": "https://carmonitoring-cd6f0-default-rtdb.firebaseio.com",
+    "project_id": "carmonitoring-cd6f0",
+    "storage_bucket": "carmonitoring-cd6f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722092888737:android:0e0e8503ceae6e701556e0",
+        "android_client_info": {
+          "package_name": "com.qppd.ibuyit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2QrkGHr6xiLEj0__Xrfkhoi0_NYIbIc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

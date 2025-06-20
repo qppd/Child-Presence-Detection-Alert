@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UHOD</string>
+    <string name="app_title">UNATTENDED HUMAN OCCUPANT DETECTION SYSTEM FOR CARS WITH MOBILE ALERT NOTIFICATION</string>
+    <string name="information_alert_records">View past alerts of detected movements inside the car when the engine is off.</string>
+    <string name="information_sleep_mode">Set a timer (5 mins to 1 hr) to temporarily pause monitoring.</string>
+    <string name="information_emergency_hotlines">Access a list of emergency contacts for quick assistance.</string>
+    <string name="information_sound_alarm">Control the alarm of the device when a human is detected inside the car.</string>
+    <string name="information_device_battery">Show the current battery level of the device.</string>
+    <string name="information_profile">View the car owner\'s personal information.</string>
+</resources>
